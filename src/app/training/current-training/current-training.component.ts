@@ -12,14 +12,14 @@ export class CurrentTrainingComponent implements OnInit {
 
 
   progress = 0;
-  timer: number;
-  
+  timer;
+
   constructor(public dialog: MatDialog, private trainingService: TrainingService) { }
 
   ngOnInit() {
-   
+
     this.startorResumerTimer();
-   
+
   }
 
   startorResumerTimer() {
