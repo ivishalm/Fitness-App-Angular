@@ -1,6 +1,6 @@
 export interface Exercise {
-    id: String;
-    name: String;
+    id: string;
+    name: string;
     duration: number;
     calories: number;
     date?: Date;
