@@ -57,7 +57,7 @@ export class TrainingService {
           // this.uiService.loadingStateChanged.next(false);
           this.store.dispatch(new UI.StopLoading());
           this.uiService.showSnakbar('fetching exercise failed, Please try again after some time', null, 3000);
-          this.exercisesChanged.next(null);
+          // this.exercisesChanged.next(null);
         }
         )
     );

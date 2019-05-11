@@ -16,7 +16,7 @@ export class SidenavListComponent implements OnInit {
 
   isAuth$: Observable;
   @Output() closeSidenav = new EventEmitter();
-  authSubscription: Subscription;
+  // authSubscription: Subscription;
 
   constructor(private authService: AuthService, private store: Store<formRoot.State>) { }
 
